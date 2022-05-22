@@ -1,14 +1,13 @@
 {
   "kind": "collectionType",
-  "collectionName": "tags",
+  "collectionName": "categories",
   "info": {
-    "singularName": "tag",
-    "pluralName": "tags",
-    "displayName": "tag",
-    "description": ""
+    "singularName": "category",
+    "pluralName": "categories",
+    "displayName": "category"
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
@@ -23,7 +22,7 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::blog.blog",
-      "mappedBy": "tag"
+      "mappedBy": "category"
     }
   }
 }

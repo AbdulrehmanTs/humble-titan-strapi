@@ -29,18 +29,18 @@
     "body": {
       "type": "richtext"
     },
-    "tag": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::tag.tag",
-      "inversedBy": "blogs"
-    },
     "slug": {
       "type": "uid",
       "targetField": "title"
     },
     "description": {
       "type": "string"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "blogs"
     }
   }
 }
