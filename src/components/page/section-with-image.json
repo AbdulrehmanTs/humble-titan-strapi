@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_section_with_images",
+  "info": {
+    "displayName": "section_with_image",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

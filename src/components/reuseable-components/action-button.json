@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_green_button_action_buttons",
+  "info": {
+    "displayName": "green_button",
+    "icon": "bold",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

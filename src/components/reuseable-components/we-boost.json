@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_reuseable_components_we_boosts",
+  "info": {
+    "displayName": "weBoost",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "actionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.action-button"
+    },
+    "links": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": true,
+      "component": "reuseable-components.link"
+    },
+    "title_with_picture": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.title-with-picture"
+    }
+  }
+}

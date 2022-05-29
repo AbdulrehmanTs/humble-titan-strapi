@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_no_matter_who_you_ares",
+  "info": {
+    "displayName": "no_matter_who_you_are",
+    "icon": "coffee"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "vertical_cards": {
+      "displayName": "verticalCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "reuseable-components.vertical-card"
+    }
+  }
+}

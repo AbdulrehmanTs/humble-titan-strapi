@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_tell_us_sections",
+  "info": {
+    "displayName": "tellUs_section",
+    "icon": "book-reader"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_services_galleries",
+  "info": {
+    "displayName": "services_gallery",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "single_service": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reuseable-components.single-service"
+    }
+  }
+}

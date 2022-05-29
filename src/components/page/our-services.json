@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_our_services",
+  "info": {
+    "displayName": "ourServices",
+    "icon": "bong"
+  },
+  "options": {},
+  "attributes": {
+    "headingBig": {
+      "type": "string"
+    },
+    "BackgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "marketSmarter": {
+      "displayName": "marketSmarter",
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.market-smarter"
+    }
+  }
+}

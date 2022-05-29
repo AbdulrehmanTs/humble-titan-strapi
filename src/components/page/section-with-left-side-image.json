@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_page_section_with_left_side_images",
+  "info": {
+    "displayName": "section_with_leftSide_image",
+    "icon": "chevron-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "actionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.action-button"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title_with_picture": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.title-with-picture"
+    }
+  }
+}

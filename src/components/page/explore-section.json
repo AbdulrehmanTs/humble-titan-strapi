@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_explore_sections",
+  "info": {
+    "displayName": "exploreSection",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "headingBig": {
+      "type": "string"
+    },
+    "heading_1": {
+      "type": "string"
+    },
+    "heading_2": {
+      "type": "string"
+    },
+    "Offerings": {
+      "displayName": "offerings",
+      "type": "component",
+      "repeatable": true,
+      "component": "reuseable-components.offerings"
+    }
+  }
+}
