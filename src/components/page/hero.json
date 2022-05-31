@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "h1": {
+    "heading": {
       "type": "string"
     },
     "description": {
@@ -19,14 +19,21 @@
       "component": "reuseable-components.action-button"
     },
     "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "label": {
+      "displayName": "label",
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.label"
     }
   }
 }

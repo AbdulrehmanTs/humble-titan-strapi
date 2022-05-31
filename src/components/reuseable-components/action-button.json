@@ -7,10 +7,10 @@
   },
   "options": {},
   "attributes": {
-    "title": {
+    "label": {
       "type": "string"
     },
-    "link": {
+    "href": {
       "type": "string"
     },
     "style": {

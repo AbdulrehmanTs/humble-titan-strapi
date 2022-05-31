@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_reuseable_components_benefits",
+  "info": {
+    "displayName": "benefit",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "iconClass": {
+      "type": "string"
+    }
+  }
+}

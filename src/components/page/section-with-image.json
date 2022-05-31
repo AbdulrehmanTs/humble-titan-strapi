@@ -24,8 +24,20 @@
     "description": {
       "type": "richtext"
     },
-    "title": {
+    "lable": {
       "type": "string"
+    },
+    "image_location": {
+      "type": "enumeration",
+      "enum": [
+        "right",
+        "left"
+      ]
+    },
+    "actionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.action-button"
     }
   }
 }

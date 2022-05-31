@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_benifits",
+  "info": {
+    "displayName": "benifits",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "benefit": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reuseable-components.benefit"
+    }
+  }
+}

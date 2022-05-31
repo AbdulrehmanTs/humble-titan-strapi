@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_missions",
+  "info": {
+    "singularName": "our-mission",
+    "pluralName": "our-missions",
+    "displayName": "our-mission",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "donate": {
+      "displayName": "detailed_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.detailed-section"
+    },
+    "discover_what_we_teach": {
+      "displayName": "dicover",
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.dicover"
+    },
+    "discover_how": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.dicover"
+    }
+  }
+}
