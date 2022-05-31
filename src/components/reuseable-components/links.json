@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_reuseable_components_links",
+  "info": {
+    "displayName": "links",
+    "icon": "external-link-square-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "iconClassName": {
+      "type": "string"
+    }
+  }
+}

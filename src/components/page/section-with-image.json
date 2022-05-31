@@ -2,25 +2,30 @@
   "collectionName": "components_page_section_with_images",
   "info": {
     "displayName": "section_with_image",
-    "icon": "photo-video"
+    "icon": "photo-video",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "heading": {
       "type": "string"
     },
     "description": {
       "type": "richtext"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

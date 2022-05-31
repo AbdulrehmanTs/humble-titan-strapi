@@ -2,12 +2,18 @@
   "collectionName": "components_page_tell_us_sections",
   "info": {
     "displayName": "tellUs_section",
-    "icon": "book-reader"
+    "icon": "book-reader",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "text": {
       "type": "string"
+    },
+    "info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reuseable-components.our-info"
     }
   }
 }

@@ -4,7 +4,7 @@
   "info": {
     "singularName": "home",
     "pluralName": "homes",
-    "displayName": "Home",
+    "displayName": "home",
     "description": ""
   },
   "options": {
@@ -70,6 +70,17 @@
     },
     "last_words": {
       "type": "richtext"
+    },
+    "tellUs_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.tell-us-section"
+    },
+    "info": {
+      "displayName": "ourInfo",
+      "type": "component",
+      "repeatable": true,
+      "component": "reuseable-components.our-info"
     }
   }
 }

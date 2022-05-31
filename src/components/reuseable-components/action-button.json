@@ -12,6 +12,13 @@
     },
     "link": {
       "type": "string"
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "filled",
+        "outlined"
+      ]
     }
   }
 }

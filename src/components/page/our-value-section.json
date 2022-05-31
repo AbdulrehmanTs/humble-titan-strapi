@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_our_value_sections",
+  "info": {
+    "displayName": "ourValue_section",
+    "icon": "dollar-sign"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "value_card": {
+      "displayName": "ourValue_card",
+      "type": "component",
+      "repeatable": true,
+      "component": "reuseable-components.our-value-card"
+    }
+  }
+}
