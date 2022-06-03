@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_page_my_intro_sections",
+  "info": {
+    "displayName": "myIntro_section",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "heading2": {
+      "type": "string"
+    },
+    "titleBig": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "actionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.action-button"
+    },
+    "abilities": {
+      "displayName": "abilities",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.abilities"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "my_quote": {
+      "displayName": "my_quote",
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.my-quote"
+    }
+  }
+}

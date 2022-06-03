@@ -2,7 +2,8 @@
   "collectionName": "components_page_services_galleries",
   "info": {
     "displayName": "services_gallery",
-    "icon": "brush"
+    "icon": "brush",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,6 +11,9 @@
       "type": "component",
       "repeatable": true,
       "component": "reuseable-components.single-service"
+    },
+    "heading": {
+      "type": "string"
     }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_what_i_offer_sections",
+  "info": {
+    "displayName": "what_I_offer_section",
+    "icon": "angle-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "my_offers": {
+      "displayName": "my_offer_card",
+      "type": "component",
+      "repeatable": true,
+      "component": "reuseable-components.my-offer-card"
+    }
+  }
+}

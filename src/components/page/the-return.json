@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_the_returns",
+  "info": {
+    "displayName": "theReturn",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "reflectionHeading": {
+      "type": "string"
+    },
+    "reflectionDetails": {
+      "type": "richtext"
+    },
+    "lessonsLearnedHeadeing": {
+      "type": "string"
+    },
+    "lessonsLearnedDetails": {
+      "type": "richtext"
+    }
+  }
+}

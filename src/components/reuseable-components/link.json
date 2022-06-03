@@ -2,14 +2,15 @@
   "collectionName": "components_reuseable_components_links",
   "info": {
     "displayName": "link",
-    "icon": "link"
+    "icon": "link",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
+    "label": {
       "type": "string"
     },
-    "link": {
+    "href": {
       "type": "string"
     }
   }

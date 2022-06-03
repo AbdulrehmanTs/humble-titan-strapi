@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_current_oppenings",
+  "info": {
+    "displayName": "current_oppenings",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "single_openings": {
+      "displayName": "single_opening",
+      "type": "component",
+      "repeatable": true,
+      "component": "reuseable-components.single-opening"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_abilities",
+  "info": {
+    "displayName": "abilities",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "iconClass": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

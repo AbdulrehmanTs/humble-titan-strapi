@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_reuseable_components_traditional_marketing_qs",
+  "info": {
+    "displayName": "traditional_marketing_qs",
+    "icon": "arrow-alt-circle-left"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reuseable-components.qs-to-ask"
+    }
+  }
+}

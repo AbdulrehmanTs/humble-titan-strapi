@@ -2,17 +2,24 @@
   "collectionName": "components_reuseable_components_features",
   "info": {
     "displayName": "features",
-    "icon": "american-sign-language-interpreting"
+    "icon": "american-sign-language-interpreting",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
+    "heading": {
       "type": "string"
     },
-    "features": {
+    "feature": {
       "type": "component",
       "repeatable": true,
       "component": "reuseable-components.feature-card"
+    },
+    "heading2": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

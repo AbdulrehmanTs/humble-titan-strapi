@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "our_missions",
+  "collectionName": "educations",
   "info": {
-    "singularName": "our-mission",
-    "pluralName": "our-missions",
-    "displayName": "our-mission",
+    "singularName": "education",
+    "pluralName": "educations",
+    "displayName": "education",
     "description": ""
   },
   "options": {
@@ -17,43 +17,46 @@
       "repeatable": false,
       "component": "page.header"
     },
-    "donate": {
-      "displayName": "detailed_section",
-      "type": "component",
-      "repeatable": false,
-      "component": "page.detailed-section"
-    },
-    "discover_what_we_teach": {
-      "displayName": "dicover",
-      "type": "component",
-      "repeatable": false,
-      "component": "reuseable-components.dicover"
-    },
-    "discover_how": {
-      "type": "component",
-      "repeatable": false,
-      "component": "reuseable-components.dicover"
-    },
-    "discover_why_and_where": {
-      "type": "component",
-      "repeatable": false,
-      "component": "reuseable-components.dicover"
-    },
-    "discover_those_we_plan_to_impact": {
-      "type": "component",
-      "repeatable": false,
-      "component": "reuseable-components.dicover"
-    },
-    "discover_more": {
-      "displayName": "discover_more",
-      "type": "component",
-      "repeatable": false,
-      "component": "reuseable-components.discover-more"
-    },
     "hero": {
       "type": "component",
       "repeatable": false,
       "component": "page.hero"
+    },
+    "educationalDictionaries": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.features"
+    },
+    "discover_full_seo_course": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.dicover"
+    },
+    "discover_ht_magazine": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.dicover"
+    },
+    "services_gallery": {
+      "displayName": "services_gallery",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.services-gallery"
+    },
+    "ht_mind_mag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.features"
+    },
+    "explore": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.explore-section"
+    },
+    "ht_digital_services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.ht-digital-services"
     }
   }
 }

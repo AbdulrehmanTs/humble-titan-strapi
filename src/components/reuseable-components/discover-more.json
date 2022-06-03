@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_reuseable_components_discover_mores",
+  "info": {
+    "displayName": "discover_more",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "iconClass": {
+      "type": "string"
+    },
+    "offerings": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reuseable-components.offerings"
+    }
+  }
+}

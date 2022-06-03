@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_product_lists",
+  "info": {
+    "displayName": "Product_list",
+    "icon": "ankh"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "heading2": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "product_cards": {
+      "displayName": "product_card",
+      "type": "component",
+      "repeatable": true,
+      "component": "reuseable-components.product-card"
+    }
+  }
+}

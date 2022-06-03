@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_reaquest_a_quote_sections",
+  "info": {
+    "displayName": "requestAQuote_section",
+    "icon": "angle-double-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mainHeading": {
+      "type": "string"
+    },
+    "heading2": {
+      "type": "string"
+    },
+    "actionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.action-button"
+    },
+    "textbellow": {
+      "type": "string"
+    }
+  }
+}
