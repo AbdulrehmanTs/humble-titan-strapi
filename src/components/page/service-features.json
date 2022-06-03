@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_service_features",
+  "info": {
+    "displayName": "service_features",
+    "icon": "backward"
+  },
+  "options": {},
+  "attributes": {
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reuseable-components.feature-card"
+    },
+    "text": {
+      "type": "string"
+    },
+    "actionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.action-button"
+    }
+  }
+}

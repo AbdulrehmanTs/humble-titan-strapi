@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_search_ballots",
+  "info": {
+    "displayName": "search_ballot",
+    "icon": "arrows-alt-v"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

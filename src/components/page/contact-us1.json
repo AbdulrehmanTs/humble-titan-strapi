@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_contact_us1s",
+  "info": {
+    "displayName": "contactUs1",
+    "icon": "baby-carriage"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "text2": {
+      "type": "string"
+    },
+    "actionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.action-button"
+    }
+  }
+}

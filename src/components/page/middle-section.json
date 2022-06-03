@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_middle_sections",
+  "info": {
+    "displayName": "middle_section",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "elected_directory_card": {
+      "displayName": "el_dir_card",
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.el-dir-card"
+    },
+    "politics_directory_card": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.el-dir-card"
+    }
+  }
+}

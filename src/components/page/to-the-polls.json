@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_to_the_polls",
+  "info": {
+    "displayName": "toThePolls",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "getToPollsSteps": {
+      "displayName": "getToPollsSteps",
+      "type": "component",
+      "repeatable": true,
+      "component": "reuseable-components.get-to-polls-steps"
+    }
+  }
+}

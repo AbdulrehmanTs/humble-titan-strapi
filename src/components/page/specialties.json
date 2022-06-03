@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_specialties",
+  "info": {
+    "displayName": "specialties",
+    "icon": "backspace"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "specialty": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reuseable-components.qs-to-ask"
+    }
+  }
+}

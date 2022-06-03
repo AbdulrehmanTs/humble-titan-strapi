@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "politics_pages",
+  "info": {
+    "singularName": "politics-page",
+    "pluralName": "politics-pages",
+    "displayName": "politics-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.hero"
+    },
+    "search_ballot": {
+      "displayName": "search_ballot",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.search-ballot"
+    },
+    "middleSection": {
+      "displayName": "middle_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.middle-section"
+    },
+    "toThePolls": {
+      "displayName": "toThePolls",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.to-the-polls"
+    }
+  }
+}
