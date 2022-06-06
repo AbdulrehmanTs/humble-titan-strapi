@@ -1,0 +1,20 @@
+{
+    "collectionName": "components_shared_services_cards_section",
+    "info": {
+      "displayName": "services_cards_section",
+      "icon": "audio-description"
+    },
+    "options": {},
+    "attributes": {
+      "heading": {
+        "type": "string"
+      },
+      "serviceCards": {
+        "displayName": "service_main_card",
+        "type": "component",
+        "repeatable": true,
+        "component": "reuseable-components.service-main-card"
+      }
+    }
+  }
+  

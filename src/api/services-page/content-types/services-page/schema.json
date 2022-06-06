@@ -22,6 +22,11 @@
       "repeatable": false,
       "component": "page.section-with-image"
     },
+    "services_cards": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.servies-cards-section"
+    },
     "cotactUs": {
       "displayName": "contactUs1",
       "type": "component",
