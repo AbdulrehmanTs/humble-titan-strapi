@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_other_services",
+  "info": {
+    "displayName": "otherServices",
+    "icon": "balance-scale-right"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "actionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.action-button"
+    },
+    "otherService": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reuseable-components.other-service"
+    }
+  }
+}

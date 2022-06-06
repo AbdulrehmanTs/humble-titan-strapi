@@ -17,7 +17,7 @@
       "repeatable": false,
       "component": "page.header"
     },
-    "webDesign_top": {
+    "topSection": {
       "type": "component",
       "repeatable": false,
       "component": "page.section-with-image"
@@ -48,6 +48,27 @@
       "type": "component",
       "repeatable": false,
       "component": "page.our-value-section"
+    },
+    "our_commitment": {
+      "displayName": "our-commitment",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.our-commitment"
+    },
+    "contact2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.contact-us1"
+    },
+    "tellUs_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.tell-us-section"
+    },
+    "otherServices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.other-services"
     }
   }
 }

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_seo_courses",
+  "info": {
+    "displayName": "seoCoursesSection",
+    "icon": "band-aid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "heading2": {
+      "type": "string"
+    },
+    "heading3": {
+      "type": "string"
+    },
+    "seoCourseCards": {
+      "displayName": "seo_course_cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "reuseable-components.seo-course-cards"
+    }
+  }
+}

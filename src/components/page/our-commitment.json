@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_our_commitments",
+  "info": {
+    "displayName": "our-commitment",
+    "icon": "bacon",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "service_deliverables": {
+      "displayName": "service_deliverables",
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.service-deliverables"
+    },
+    "commitmentCard2": {
+      "displayName": "commitmentCard2",
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.commitment-card2"
+    }
+  }
+}
