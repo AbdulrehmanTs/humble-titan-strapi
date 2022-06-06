@@ -22,12 +22,6 @@
       "repeatable": false,
       "component": "page.section-with-image"
     },
-    "services_cards_section": {
-      "displayName": "services_cards_section",
-      "type": "component",
-      "repeatable": false,
-      "component": "reuseable-components.services-cards-section"
-    },
     "cotactUs": {
       "displayName": "contactUs1",
       "type": "component",
