@@ -47,7 +47,7 @@
     "section_with_image": {
       "type": "dynamiczone",
       "components": [
-        "page.section-with-left-side-image",
+        "shared.section-with-left-side-image",
         "page.section-with-right-image"
       ]
     },

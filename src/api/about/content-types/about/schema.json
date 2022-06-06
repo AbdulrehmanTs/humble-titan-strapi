@@ -51,7 +51,7 @@
     "section_with_image_left": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-with-left-side-image"
+      "component": "shared.section-with-left-side-image"
     },
     "ourOffices": {
       "displayName": "ourOffices_section",

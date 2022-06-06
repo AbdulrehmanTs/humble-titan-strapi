@@ -1,8 +1,9 @@
 {
-  "collectionName": "components_reuseable_components_traditional_marketing_qs",
+  "collectionName": "components_shared_traditional_marketing_qs",
   "info": {
     "displayName": "traditional_marketing_qs",
-    "icon": "arrow-alt-circle-left"
+    "icon": "arrow-alt-circle-left",
+    "description": ""
   },
   "options": {},
   "attributes": {

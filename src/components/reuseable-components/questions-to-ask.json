@@ -13,7 +13,7 @@
       "displayName": "traditional_marketing_qs",
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.traditional-marketing-qs"
+      "component": "shared.traditional-marketing-qs"
     },
     "actionButton": {
       "type": "component",
