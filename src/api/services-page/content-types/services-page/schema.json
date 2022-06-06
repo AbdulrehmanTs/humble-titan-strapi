@@ -22,7 +22,7 @@
       "repeatable": false,
       "component": "page.section-with-image"
     },
-    "services_card_section": {
+    "services_cards_section": {
       "displayName": "services_cards_section",
       "type": "component",
       "repeatable": false,
