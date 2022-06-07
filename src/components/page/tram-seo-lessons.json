@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_tram_seo_lessons",
+  "info": {
+    "displayName": "tramSeoLessons",
+    "icon": "battery-quarter"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "seoLessonCard": {
+      "displayName": "seoLessonCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.seo-lesson-card"
+    },
+    "viewAllBtn": {
+      "displayName": "viewAllBtn",
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.action-button"
+    }
+  }
+}

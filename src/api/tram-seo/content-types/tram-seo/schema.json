@@ -27,6 +27,35 @@
       "type": "component",
       "repeatable": false,
       "component": "page.seo-courses"
+    },
+    "tramPackages": {
+      "displayName": "tramPackages",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tram-packages"
+    },
+    "otherCoreOfferings": {
+      "displayName": "otherCoreOfferings",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.other-core-offerings"
+    },
+    "exploreFreeCourse": {
+      "displayName": "exploreFreeCourse",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.explore-free-course"
+    },
+    "tramSeoLessons": {
+      "displayName": "tramSeoLessons",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.tram-seo-lessons"
+    },
+    "ht_digital_services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.ht-digital-services"
     }
   }
 }

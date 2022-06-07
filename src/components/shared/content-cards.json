@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_content_cards",
+  "info": {
+    "displayName": "contentCards",
+    "icon": "beer"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "chapterNumber": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

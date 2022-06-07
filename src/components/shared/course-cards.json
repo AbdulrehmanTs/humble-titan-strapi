@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_course_cards",
+  "info": {
+    "displayName": "courseCards",
+    "icon": "bell-slash"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "partNumber": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

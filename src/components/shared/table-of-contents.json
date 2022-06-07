@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_table_of_contents",
+  "info": {
+    "displayName": "tableOfContents",
+    "icon": "bed"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "heading2": {
+      "type": "string"
+    },
+    "contentCards": {
+      "displayName": "contentCards",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.content-cards"
+    }
+  }
+}

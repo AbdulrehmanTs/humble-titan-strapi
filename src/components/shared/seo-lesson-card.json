@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_seo_lesson_cards",
+  "info": {
+    "displayName": "seoLessonCard",
+    "icon": "battery-three-quarters"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.abilities"
+    },
+    "actionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.action-button"
+    }
+  }
+}

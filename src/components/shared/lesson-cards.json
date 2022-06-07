@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_shared_lesson_cards",
+  "info": {
+    "displayName": "lessonCards",
+    "icon": "bible"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "lessonNumber": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "actionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.action-button"
+    }
+  }
+}

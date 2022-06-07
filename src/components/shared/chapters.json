@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_chapters",
+  "info": {
+    "displayName": "chapters",
+    "icon": "bezier-curve"
+  },
+  "options": {},
+  "attributes": {
+    "chapterNumber": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "lessonCards": {
+      "displayName": "lessonCards",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.lesson-cards"
+    }
+  }
+}

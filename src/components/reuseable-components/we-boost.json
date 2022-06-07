@@ -7,6 +7,11 @@
   },
   "options": {},
   "attributes": {
+    "title_with_picture": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.title-with-picture"
+    },
     "heading": {
       "type": "string"
     },
@@ -18,16 +23,21 @@
       "repeatable": false,
       "component": "reuseable-components.action-button"
     },
-    "links": {
+    "link": {
       "displayName": "link",
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "reuseable-components.link"
     },
-    "title_with_picture": {
-      "type": "component",
-      "repeatable": false,
-      "component": "reuseable-components.title-with-picture"
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

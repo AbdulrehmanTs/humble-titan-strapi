@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_package_features",
+  "info": {
+    "displayName": "packageFeature",
+    "icon": "battery-empty"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

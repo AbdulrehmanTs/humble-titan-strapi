@@ -7,6 +7,12 @@
   },
   "options": {},
   "attributes": {
+    "label": {
+      "displayName": "label",
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.label"
+    },
     "heading": {
       "type": "string"
     },
@@ -28,12 +34,6 @@
         "videos",
         "audios"
       ]
-    },
-    "label": {
-      "displayName": "label",
-      "type": "component",
-      "repeatable": false,
-      "component": "reuseable-components.label"
     }
   }
 }

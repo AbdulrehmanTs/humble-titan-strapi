@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_tramp_single_packages",
+  "info": {
+    "displayName": "trampSinglePackage",
+    "icon": "bath",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "packageFeatures": {
+      "displayName": "packageFeatures",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.package-feature"
+    },
+    "actionButton": {
+      "displayName": "actionButton",
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.action-button"
+    }
+  }
+}

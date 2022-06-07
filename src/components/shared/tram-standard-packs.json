@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_shared_tram_standard_packs",
+  "info": {
+    "displayName": "tramStandardPacks",
+    "icon": "bicycle"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "heading2": {
+      "type": "string"
+    },
+    "details": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "tramPackages": {
+      "displayName": "tramPackages",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.tramp-single-package"
+    }
+  }
+}

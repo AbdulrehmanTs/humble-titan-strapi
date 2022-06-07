@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_tram_packages",
+  "info": {
+    "displayName": "tramPackages",
+    "icon": "basketball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "tramSinglePackage": {
+      "displayName": "trampSinglePackage",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.tramp-single-package"
+    }
+  }
+}

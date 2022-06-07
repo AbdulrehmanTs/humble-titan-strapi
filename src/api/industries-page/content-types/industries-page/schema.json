@@ -21,6 +21,22 @@
       "type": "component",
       "repeatable": false,
       "component": "page.hero"
+    },
+    "heading": {
+      "type": "text"
+    },
+    "heading2": {
+      "type": "text"
+    },
+    "types_of_business": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.dicover"
+    },
+    "what_ht_can_do": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.explore-section"
     }
   }
 }

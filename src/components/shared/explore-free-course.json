@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_shared_explore_free_courses",
+  "info": {
+    "displayName": "exploreFreeCourse",
+    "icon": "battery-half"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "details": {
+      "type": "richtext"
+    },
+    "actionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reuseable-components.action-button"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
