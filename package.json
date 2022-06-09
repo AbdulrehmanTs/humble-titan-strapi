@@ -2,7 +2,7 @@
   "name": "humble-titan-strapi",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Humble Titan backend by Strapi",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -25,7 +25,7 @@
     "uuid": "5a364352-b329-46a7-8af6-0c4bce5d32ab"
   },
   "engines": {
-    "node": ">=12.x.x <=16.x.x",
+    "node": "16.X",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
