@@ -10,7 +10,7 @@
     "title_with_picture": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.title-with-picture"
+      "component": "shared.title-with-picture"
     },
     "heading": {
       "type": "string"

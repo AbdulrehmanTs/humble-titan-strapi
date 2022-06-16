@@ -1,8 +1,9 @@
 {
-  "collectionName": "components_reuseable_components_title_with_pictures",
+  "collectionName": "components_shared_title_with_pictures",
   "info": {
     "displayName": "title-with-picture",
-    "icon": "text-height"
+    "icon": "text-height",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,14 +11,15 @@
       "type": "string"
     },
     "smallPicture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

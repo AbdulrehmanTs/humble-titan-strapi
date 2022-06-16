@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_page_section_with_left_side_images",
+  "collectionName": "components_page_section_left_images",
   "info": {
-    "displayName": "section_with_leftSide_image",
+    "displayName": "section_left_image",
     "icon": "audio-description",
     "description": ""
   },
@@ -35,7 +35,7 @@
     "title_with_picture": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.title-with-picture"
+      "component": "shared.title-with-picture"
     }
   }
 }
