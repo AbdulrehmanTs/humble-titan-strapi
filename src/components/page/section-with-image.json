@@ -7,6 +7,11 @@
   },
   "options": {},
   "attributes": {
+    "label": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.label"
+    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -23,9 +28,6 @@
     },
     "description": {
       "type": "richtext"
-    },
-    "lable": {
-      "type": "string"
     },
     "image_location": {
       "type": "enumeration",

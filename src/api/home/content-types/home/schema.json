@@ -44,22 +44,16 @@
       "repeatable": false,
       "component": "page.services-gallery"
     },
+    "tellUs_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.tell-us-section"
+    },
     "section_with_image": {
       "type": "dynamiczone",
       "components": [
-        "shared.section-with-left-side-image"
+        "page.section-with-image"
       ]
-    },
-    "single_section_with_image": {
-      "displayName": "section_with_image",
-      "type": "component",
-      "repeatable": false,
-      "component": "page.section-with-image"
-    },
-    "another_section_with_image": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.section-with-image"
     },
     "no_matter_who_you_are": {
       "displayName": "no_matter_who_you_are",
@@ -69,17 +63,6 @@
     },
     "last_words": {
       "type": "richtext"
-    },
-    "tellUs_section": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.tell-us-section"
-    },
-    "info": {
-      "displayName": "ourInfo",
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.our-info"
     }
   }
 }

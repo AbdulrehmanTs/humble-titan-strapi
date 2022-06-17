@@ -13,7 +13,7 @@
     "href": {
       "type": "string"
     },
-    "style": {
+    "btn_style": {
       "type": "enumeration",
       "enum": [
         "filled",
