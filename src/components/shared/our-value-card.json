@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_our_value_cards",
+  "info": {
+    "displayName": "ourValue_card",
+    "icon": "box"
+  },
+  "options": {},
+  "attributes": {
+    "iconClassName": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

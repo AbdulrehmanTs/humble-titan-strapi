@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_seo_course_cards",
+  "info": {
+    "displayName": "seo_course_cards",
+    "icon": "baseball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "actionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.action-button"
+    }
+  }
+}

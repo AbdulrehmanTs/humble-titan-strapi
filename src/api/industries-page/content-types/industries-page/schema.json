@@ -31,7 +31,7 @@
     "types_of_business": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.dicover"
+      "component": "shared.dicover"
     },
     "what_ht_can_do": {
       "type": "component",

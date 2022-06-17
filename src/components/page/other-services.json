@@ -12,12 +12,12 @@
     "actionButton": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.action-button"
+      "component": "shared.action-button"
     },
     "otherService": {
       "type": "component",
       "repeatable": true,
-      "component": "reuseable-components.other-service"
+      "component": "shared.other-service"
     }
   }
 }

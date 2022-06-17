@@ -13,7 +13,7 @@
         "displayName": "service_main_card",
         "type": "component",
         "repeatable": true,
-        "component": "reuseable-components.service-main-card"
+        "component": "shared.service-main-card"
       }
     }
   }

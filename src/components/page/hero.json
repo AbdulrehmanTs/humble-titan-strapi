@@ -11,7 +11,7 @@
       "displayName": "label",
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.label"
+      "component": "shared.label"
     },
     "heading": {
       "type": "string"
@@ -22,7 +22,7 @@
     "actionButton": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.action-button"
+      "component": "shared.action-button"
     },
     "heroImage": {
       "type": "media",

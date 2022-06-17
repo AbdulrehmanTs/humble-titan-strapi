@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_iam_trusted_by_lists",
+  "info": {
+    "displayName": "Iam_trusted_by_list",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "my_work": {
+      "displayName": "my_work",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.my-work"
+    }
+  }
+}

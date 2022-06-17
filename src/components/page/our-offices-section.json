@@ -13,7 +13,7 @@
       "displayName": "singleOffice_card",
       "type": "component",
       "repeatable": true,
-      "component": "reuseable-components.single-office-card"
+      "component": "shared.single-office-card"
     }
   }
 }

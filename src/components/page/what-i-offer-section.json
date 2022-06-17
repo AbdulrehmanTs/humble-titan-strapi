@@ -13,7 +13,7 @@
       "displayName": "my_offer_card",
       "type": "component",
       "repeatable": true,
-      "component": "reuseable-components.my-offer-card"
+      "component": "shared.my-offer-card"
     }
   }
 }

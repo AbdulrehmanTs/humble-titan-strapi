@@ -23,7 +23,7 @@
       "displayName": "marketSmarter",
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.market-smarter"
+      "component": "shared.market-smarter"
     }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_our_infos",
+  "info": {
+    "displayName": "ourInfo",
+    "icon": "chess-pawn"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "iconClass": {
+      "type": "string"
+    },
+    "details": {
+      "type": "richtext"
+    }
+  }
+}

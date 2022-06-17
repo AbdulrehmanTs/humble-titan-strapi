@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_jump_to_chapters",
+  "info": {
+    "displayName": "jumpToChapters",
+    "icon": "arrow-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "chapterLinks": {
+      "displayName": "chapterLinks",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.chapter-number"
+    }
+  }
+}

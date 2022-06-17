@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_chapter_numbers",
+  "info": {
+    "displayName": "chapterNumber",
+    "icon": "arrow-down"
+  },
+  "options": {},
+  "attributes": {
+    "imageWithChapterNumber": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "label": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

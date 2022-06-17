@@ -10,7 +10,7 @@
       "displayName": "chpaterIntro",
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.chpater-intro"
+      "component": "shared.chpater-intro"
     },
     "theStory": {
       "type": "richtext"
@@ -18,7 +18,7 @@
     "getInTouch": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.action-button"
+      "component": "shared.action-button"
     },
     "theReturn": {
       "displayName": "theReturn",
@@ -30,7 +30,7 @@
       "displayName": "jumpToChapters",
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.jump-to-chapters"
+      "component": "shared.jump-to-chapters"
     }
   }
 }

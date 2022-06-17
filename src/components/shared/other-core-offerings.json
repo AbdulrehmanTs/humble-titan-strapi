@@ -12,7 +12,7 @@
     "otherOfferingsCards": {
       "type": "component",
       "repeatable": true,
-      "component": "reuseable-components.seo-course-cards"
+      "component": "shared.seo-course-cards"
     }
   }
 }

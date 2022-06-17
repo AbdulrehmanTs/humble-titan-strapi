@@ -17,7 +17,7 @@
       "displayName": "ourValue_card",
       "type": "component",
       "repeatable": true,
-      "component": "reuseable-components.our-value-card"
+      "component": "shared.our-value-card"
     }
   }
 }

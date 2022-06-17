@@ -12,7 +12,7 @@
     "specialty": {
       "type": "component",
       "repeatable": true,
-      "component": "reuseable-components.qs-to-ask"
+      "component": "shared.qs-to-ask"
     }
   }
 }

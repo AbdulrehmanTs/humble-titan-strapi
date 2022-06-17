@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_service_deliverables",
+  "info": {
+    "displayName": "service_deliverables",
+    "icon": "balance-scale"
+  },
+  "options": {},
+  "attributes": {
+    "lableImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "heading": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.abilities"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_vertical_cards",
+  "info": {
+    "displayName": "verticalCard",
+    "icon": "id-card-alt"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "qouted_text": {
+      "type": "text"
+    },
+    "personName_and_info": {
+      "type": "string"
+    }
+  }
+}

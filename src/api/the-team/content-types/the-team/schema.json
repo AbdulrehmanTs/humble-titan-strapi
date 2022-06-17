@@ -40,7 +40,7 @@
     "trustedBy": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.trusted-by-companies"
+      "component": "shared.trusted-by-companies"
     },
     "exceptional_resources": {
       "type": "component",
@@ -51,7 +51,7 @@
       "displayName": "greatBenifits",
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.great-benifits"
+      "component": "shared.great-benifits"
     },
     "tellUs_section": {
       "type": "component",

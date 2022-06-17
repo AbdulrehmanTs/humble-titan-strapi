@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_questions_to_asks",
+  "info": {
+    "displayName": "questions_to_ask",
+    "icon": "arrow-alt-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "traditional_marketing_qs": {
+      "displayName": "traditional_marketing_qs",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.traditional-marketing-qs"
+    },
+    "actionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.action-button"
+    }
+  }
+}

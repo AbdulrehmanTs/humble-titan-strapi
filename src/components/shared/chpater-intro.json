@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_shared_chpater_intros",
+  "info": {
+    "displayName": "chpaterIntro",
+    "icon": "arrow-circle-left"
+  },
+  "options": {},
+  "attributes": {
+    "chateperNumber": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "where": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "theChallange": {
+      "type": "string"
+    },
+    "challangeDetails": {
+      "type": "text"
+    },
+    "thePlan": {
+      "type": "string"
+    },
+    "planDetails": {
+      "type": "text"
+    },
+    "theAttitude": {
+      "type": "string"
+    },
+    "attitudeDetails": {
+      "type": "text"
+    }
+  }
+}

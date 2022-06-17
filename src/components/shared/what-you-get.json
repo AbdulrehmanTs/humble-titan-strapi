@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_what_you_gets",
+  "info": {
+    "displayName": "what_you_get",
+    "icon": "angle-up"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.feature-card"
+    }
+  }
+}

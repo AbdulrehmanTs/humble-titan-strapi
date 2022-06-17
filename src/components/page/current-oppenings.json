@@ -10,7 +10,7 @@
       "displayName": "single_opening",
       "type": "component",
       "repeatable": true,
-      "component": "reuseable-components.single-opening"
+      "component": "shared.single-opening"
     }
   }
 }

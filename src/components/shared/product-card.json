@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_product_cards",
+  "info": {
+    "displayName": "product_card",
+    "icon": "assistive-listening-systems"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "link":{
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    }
+  }
+}

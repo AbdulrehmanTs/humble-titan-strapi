@@ -17,13 +17,13 @@
       "displayName": "service_deliverables",
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.service-deliverables"
+      "component": "shared.service-deliverables"
     },
     "commitmentCard2": {
       "displayName": "commitmentCard2",
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.commitment-card2"
+      "component": "shared.commitment-card2"
     }
   }
 }

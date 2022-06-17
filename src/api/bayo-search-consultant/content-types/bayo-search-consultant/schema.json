@@ -38,19 +38,19 @@
       "displayName": "what_you_get",
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.what-you-get"
+      "component": "shared.what-you-get"
     },
     "who_I_am": {
       "displayName": "who_I_am",
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.who-i-am"
+      "component": "shared.who-i-am"
     },
     "Iam_trustedBy_section": {
       "displayName": "Iam_trusted_by_list",
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.iam-trusted-by-list"
+      "component": "shared.iam-trusted-by-list"
     },
     "Im_Impressed_by": {
       "type": "component",
@@ -61,12 +61,12 @@
       "displayName": "questions_to_ask",
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.questions-to-ask"
+      "component": "shared.questions-to-ask"
     },
     "organizations_I_work_with": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.features"
+      "component": "shared.features"
     },
     "discover_my_story_text": {
       "type": "string"
@@ -84,7 +84,7 @@
       "displayName": "chapterConclusion",
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.chapter-conclusion"
+      "component": "shared.chapter-conclusion"
     }
   }
 }

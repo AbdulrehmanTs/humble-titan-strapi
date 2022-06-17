@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_my_offer_cards",
+  "info": {
+    "displayName": "my_offer_card",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

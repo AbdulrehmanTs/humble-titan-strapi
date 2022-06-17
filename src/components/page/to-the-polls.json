@@ -13,7 +13,7 @@
       "displayName": "getToPollsSteps",
       "type": "component",
       "repeatable": true,
-      "component": "reuseable-components.get-to-polls-steps"
+      "component": "shared.get-to-polls-steps"
     }
   }
 }

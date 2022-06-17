@@ -10,12 +10,12 @@
       "displayName": "el_dir_card",
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.el-dir-card"
+      "component": "shared.el-dir-card"
     },
     "politics_directory_card": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.el-dir-card"
+      "component": "shared.el-dir-card"
     }
   }
 }

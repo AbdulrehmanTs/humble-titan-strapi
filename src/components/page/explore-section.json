@@ -19,7 +19,7 @@
       "displayName": "offerings",
       "type": "component",
       "repeatable": true,
-      "component": "reuseable-components.offerings"
+      "component": "shared.offerings"
     }
   }
 }

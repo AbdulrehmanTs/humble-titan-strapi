@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_shared_client_feedbacks",
+  "info": {
+    "displayName": "client_feedback",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "label": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "text"
+    },
+    "message": {
+      "type": "richtext"
+    },
+    "name": {
+      "type": "string"
+    },
+    "roll": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

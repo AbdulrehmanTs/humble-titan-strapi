@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_people",
+  "info": {
+    "displayName": "person",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "roll": {
+      "type": "string"
+    },
+    "links": {
+      "displayName": "links",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.links"
+    }
+  }
+}

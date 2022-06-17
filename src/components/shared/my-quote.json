@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_my_quotes",
+  "info": {
+    "displayName": "my_quote",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text": {
+      "type": "text"
+    },
+    "name": {
+      "type": "string"
+    },
+    "roll": {
+      "type": "string"
+    }
+  }
+}

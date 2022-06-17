@@ -10,7 +10,7 @@
     "single_service": {
       "type": "component",
       "repeatable": true,
-      "component": "reuseable-components.single-service"
+      "component": "shared.single-service"
     },
     "heading": {
       "type": "string"

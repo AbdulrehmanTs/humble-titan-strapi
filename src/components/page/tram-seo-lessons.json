@@ -19,7 +19,7 @@
       "displayName": "viewAllBtn",
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.action-button"
+      "component": "shared.action-button"
     }
   }
 }

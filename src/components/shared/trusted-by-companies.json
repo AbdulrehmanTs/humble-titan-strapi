@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_trusted_by_companies",
+  "info": {
+    "displayName": "trustedByCompanies",
+    "icon": "chalkboard-teacher"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "companyLogos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -27,28 +27,28 @@
       "displayName": "dicover",
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.dicover"
+      "component": "shared.dicover"
     },
     "discover_how": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.dicover"
+      "component": "shared.dicover"
     },
     "discover_why_and_where": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.dicover"
+      "component": "shared.dicover"
     },
     "discover_those_we_plan_to_impact": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.dicover"
+      "component": "shared.dicover"
     },
     "discover_more": {
       "displayName": "discover_more",
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.discover-more"
+      "component": "shared.discover-more"
     },
     "hero": {
       "type": "component",

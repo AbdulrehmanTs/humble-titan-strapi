@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_single_services",
+  "info": {
+    "displayName": "singleService",
+    "icon": "cheese"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "details": {
+      "type": "string"
+    }
+  }
+}

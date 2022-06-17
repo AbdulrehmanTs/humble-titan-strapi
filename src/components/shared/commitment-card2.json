@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_commitment_card2s",
+  "info": {
+    "displayName": "commitmentCard2",
+    "icon": "balance-scale-left"
+  },
+  "options": {},
+  "attributes": {
+    "lableImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "heading": {
+      "type": "string"
+    },
+    "details": {
+      "type": "richtext"
+    }
+  }
+}

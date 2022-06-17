@@ -26,7 +26,7 @@
       "displayName": "weBoost",
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.we-boost"
+      "component": "shared.we-boost"
     },
     "explore": {
       "type": "component",
@@ -79,7 +79,7 @@
       "displayName": "ourInfo",
       "type": "component",
       "repeatable": true,
-      "component": "reuseable-components.our-info"
+      "component": "shared.our-info"
     }
   }
 }

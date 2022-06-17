@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_single_office_cards",
+  "info": {
+    "displayName": "singleOffice_card",
+    "icon": "sim-card"
+  },
+  "options": {},
+  "attributes": {
+    "mapLink": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "button":{
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    }
+  }
+}

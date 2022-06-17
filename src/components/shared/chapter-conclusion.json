@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_chapter_conclusions",
+  "info": {
+    "displayName": "chapterConclusion",
+    "icon": "arrow-left"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "text2": {
+      "type": "string"
+    },
+    "actionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.action-button"
+    }
+  }
+}

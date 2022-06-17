@@ -15,7 +15,7 @@
     "feature": {
       "type": "component",
       "repeatable": true,
-      "component": "reuseable-components.feature-card"
+      "component": "shared.feature-card"
     },
     "heading": {
       "type": "string"

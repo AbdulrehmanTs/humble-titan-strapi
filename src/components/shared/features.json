@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_features",
+  "info": {
+    "displayName": "features",
+    "icon": "american-sign-language-interpreting",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "feature": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.feature-card"
+    },
+    "heading2": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

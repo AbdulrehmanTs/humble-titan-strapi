@@ -19,7 +19,7 @@
       "displayName": "product_card",
       "type": "component",
       "repeatable": true,
-      "component": "reuseable-components.product-card"
+      "component": "shared.product-card"
     }
   }
 }

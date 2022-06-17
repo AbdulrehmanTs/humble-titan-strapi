@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_el_dir_cards",
+  "info": {
+    "displayName": "el_dir_card",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -23,7 +23,7 @@
       "displayName": "seo_course_cards",
       "type": "component",
       "repeatable": true,
-      "component": "reuseable-components.seo-course-cards"
+      "component": "shared.seo-course-cards"
     }
   }
 }

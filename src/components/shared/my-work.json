@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_my_works",
+  "info": {
+    "displayName": "my_work",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "iconClass": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

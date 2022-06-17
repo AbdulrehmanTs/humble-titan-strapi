@@ -36,7 +36,7 @@
     "bayo_quote": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.client-feedback"
+      "component": "shared.client-feedback"
     },
     "ourValue": {
       "type": "component",
@@ -51,7 +51,7 @@
     "ht_digital_services": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.ht-digital-services"
+      "component": "shared.ht-digital-services"
     }
   }
 }

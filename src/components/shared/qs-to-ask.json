@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_qs_to_asks",
+  "info": {
+    "displayName": "qs_to_ask",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "details": {
+      "type": "text"
+    },
+    "iconClassName": {
+      "type": "string"
+    }
+  }
+}

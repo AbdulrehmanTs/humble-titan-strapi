@@ -21,7 +21,7 @@
     "actionButton": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.action-button"
+      "component": "shared.action-button"
     },
     "abilities": {
       "displayName": "abilities",
@@ -43,7 +43,7 @@
       "displayName": "my_quote",
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.my-quote"
+      "component": "shared.my-quote"
     }
   }
 }

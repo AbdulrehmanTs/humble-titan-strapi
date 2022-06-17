@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_type_writer_texts",
+  "info": {
+    "displayName": "typeWriterText",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

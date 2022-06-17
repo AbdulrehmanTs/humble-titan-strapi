@@ -55,7 +55,7 @@
     "ht_digital_services": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.ht-digital-services"
+      "component": "shared.ht-digital-services"
     }
   }
 }

@@ -42,23 +42,23 @@
     "faqs": {
       "type": "component",
       "repeatable": true,
-      "component": "reuseable-components.faqs"
+      "component": "shared.faqs"
     },
     "client_feedback": {
       "displayName": "client_feedback",
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.client-feedback"
+      "component": "shared.client-feedback"
     },
     "trustedByCompanies": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.trusted-by-companies"
+      "component": "shared.trusted-by-companies"
     },
     "DanaJohnsonFeedback": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.client-feedback"
+      "component": "shared.client-feedback"
     }
   }
 }

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_get_to_polls_steps",
+  "info": {
+    "displayName": "getToPollsSteps",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "details": {
+      "type": "text"
+    }
+  }
+}

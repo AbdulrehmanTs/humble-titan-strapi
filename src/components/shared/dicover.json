@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_dicovers",
+  "info": {
+    "displayName": "discover",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "iconClassName": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.features"
+    }
+  }
+}

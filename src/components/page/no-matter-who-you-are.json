@@ -14,7 +14,7 @@
       "displayName": "verticalCard",
       "type": "component",
       "repeatable": true,
-      "component": "reuseable-components.vertical-card"
+      "component": "shared.vertical-card"
     }
   }
 }

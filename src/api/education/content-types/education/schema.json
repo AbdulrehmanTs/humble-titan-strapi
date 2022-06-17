@@ -25,17 +25,17 @@
     "educationalDictionaries": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.features"
+      "component": "shared.features"
     },
     "discover_full_seo_course": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.dicover"
+      "component": "shared.dicover"
     },
     "discover_ht_magazine": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.dicover"
+      "component": "shared.dicover"
     },
     "services_gallery": {
       "displayName": "services_gallery",
@@ -46,7 +46,7 @@
     "ht_mind_mag": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.features"
+      "component": "shared.features"
     },
     "explore": {
       "type": "component",
@@ -56,7 +56,7 @@
     "ht_digital_services": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.ht-digital-services"
+      "component": "shared.ht-digital-services"
     }
   }
 }

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_market_smarters",
+  "info": {
+    "displayName": "marketSmarter",
+    "icon": "barcode"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "discription": {
+      "type": "string"
+    },
+    "actionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.action-button"
+    }
+  }
+}

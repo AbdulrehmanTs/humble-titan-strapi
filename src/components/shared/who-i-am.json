@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_who_i_ams",
+  "info": {
+    "displayName": "who_I_am",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "title": {
+      "type": "text"
+    },
+    "title2": {
+      "type": "text"
+    },
+    "typeWriterText": {
+      "displayName": "typeWriterText",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.type-writer-text"
+    },
+    "details": {
+      "type": "richtext"
+    },
+    "actionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.action-button"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_offerings",
+  "info": {
+    "displayName": "offerings",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

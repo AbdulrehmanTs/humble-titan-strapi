@@ -28,12 +28,12 @@
     "DiscoverWorldIssues": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.dicover"
+      "component": "shared.dicover"
     },
     "Discoverwhyandwhere": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.discover-more"
+      "component": "shared.discover-more"
     }
   }
 }

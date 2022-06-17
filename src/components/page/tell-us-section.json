@@ -13,7 +13,7 @@
     "info": {
       "type": "component",
       "repeatable": true,
-      "component": "reuseable-components.our-info"
+      "component": "shared.our-info"
     }
   }
 }

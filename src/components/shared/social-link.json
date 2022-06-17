@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_social_links",
+  "info": {
+    "displayName": "social_link",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "iconClass": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

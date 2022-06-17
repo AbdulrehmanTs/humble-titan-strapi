@@ -34,7 +34,7 @@
       "displayName": "trustedByCompanies",
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.trusted-by-companies"
+      "component": "shared.trusted-by-companies"
     },
     "ourValue_section": {
       "displayName": "ourValue_section",
@@ -46,7 +46,7 @@
       "displayName": "team_section",
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.team-section"
+      "component": "shared.team-section"
     },
     "section_with_image_left": {
       "type": "component",
@@ -62,7 +62,7 @@
     "ht_digital_services": {
       "type": "component",
       "repeatable": false,
-      "component": "reuseable-components.ht-digital-services"
+      "component": "shared.ht-digital-services"
     }
   }
 }
