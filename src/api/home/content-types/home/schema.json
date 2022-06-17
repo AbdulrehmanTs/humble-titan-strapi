@@ -49,7 +49,12 @@
       "repeatable": false,
       "component": "page.tell-us-section"
     },
-    
+    "section_with_image": {
+      "type": "dynamiczone",
+      "components": [
+        "page.section-with-image"
+      ]
+    },
     "no_matter_who_you_are": {
       "displayName": "no_matter_who_you_are",
       "type": "component",
