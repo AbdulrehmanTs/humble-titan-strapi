@@ -16,7 +16,7 @@ module.exports = ({ env }) => ({
       pool: {
         min: 0,
         max: 2,
-        acquireTimeoutMillis: 60000,
+        acquireTimeoutMillis: 120000,
         createTimeoutMillis: 60000,
         destroyTimeoutMillis: 20000,
         idleTimeoutMillis: 60000,
