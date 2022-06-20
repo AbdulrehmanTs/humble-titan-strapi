@@ -14,7 +14,7 @@ module.exports = ({ env }) => ({
         rejectUnauthorized: false
       },
     },
-    pool: { min: 0, max: 18 },
+    pool: { min: 0, max: 15 },
     asyncStackTraces: true
   },
 });
