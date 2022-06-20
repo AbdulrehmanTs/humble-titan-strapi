@@ -17,8 +17,8 @@ module.exports = ({ env }) => ({
     debug: false,
     pool: {
       acquireTimeoutMillis: 120000,
-      min: 0,  // default 2
-      max: 6,  // default 10
+      min: 0,
+      max: 6,
     }
   },
 });
