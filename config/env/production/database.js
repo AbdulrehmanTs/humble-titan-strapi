@@ -14,11 +14,7 @@ module.exports = ({ env }) => ({
         rejectUnauthorized: false
       },
     },
-    debug: false,
-    pool: {
-      acquireTimeoutMillis: 120000,
-      min: 0,
-      max: 6,
-    }
+    pool: { min: 0, max: 20 },
+    asyncStackTraces: true
   },
 });
