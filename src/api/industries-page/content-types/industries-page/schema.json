@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "industries_pages",
+  "info": {
+    "singularName": "industries-page",
+    "pluralName": "industries-pages",
+    "displayName": "industries-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.hero"
+    },
+    "heading": {
+      "type": "text"
+    },
+    "heading2": {
+      "type": "text"
+    },
+    "types_of_business": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.dicover"
+    },
+    "what_ht_can_do": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.explore-section"
+    }
+  }
+}

@@ -16,10 +16,9 @@ module.exports = ({ env }) => ({
     },
     pool: {
       min: 2,
-      max: 19,
+      max: 20,
     },
-    debug: true,
-    acquireConnectionTimeout: 120000,
-    asyncStackTraces: true
+    debug: false,
+    acquireConnectionTimeout: 180000,
   },
 });
