@@ -34,17 +34,17 @@
       "repeatable": false,
       "component": "shared.complete-method"
     },
-    "chapters": {
-      "displayName": "chapters",
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.chapters"
-    },
     "tramStandardPacks": {
       "displayName": "tramStandardPacks",
       "type": "component",
       "repeatable": false,
       "component": "shared.tram-standard-packs"
+    },
+    "chapters": {
+      "displayName": "chapters",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.chapters"
     },
     "otherServices": {
       "displayName": "otherServices",
