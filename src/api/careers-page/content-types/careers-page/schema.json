@@ -27,6 +27,11 @@
       "repeatable": false,
       "component": "page.section-with-image"
     },
+    "danaJohnson": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.client-feedback"
+    },
     "ourValue": {
       "type": "component",
       "repeatable": false,
