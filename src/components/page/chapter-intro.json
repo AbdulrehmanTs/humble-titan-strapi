@@ -31,6 +31,12 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.jump-to-chapters"
+    },
+    "chapterConclusion": {
+      "displayName": "chapterConclusion",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.chapter-conclusion"
     }
   }
 }

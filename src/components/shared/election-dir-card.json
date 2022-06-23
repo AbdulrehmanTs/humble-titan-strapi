@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_shared_el_dir_cards",
+  "collectionName": "components_shared_election_dir_cards",
   "info": {
-    "displayName": "el_dir_card",
+    "displayName": "election_dir_card",
     "icon": "at"
   },
   "options": {},

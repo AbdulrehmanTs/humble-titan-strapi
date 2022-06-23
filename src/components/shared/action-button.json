@@ -16,8 +16,10 @@
     "style": {
       "type": "enumeration",
       "enum": [
-        "filled",
-        "outlined"
+        "green-filled",
+        "green-outlined",
+        "blue_filled",
+        "blue_outlined"
       ]
     }
   }

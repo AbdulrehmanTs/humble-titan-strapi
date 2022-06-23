@@ -7,6 +7,17 @@
   },
   "options": {},
   "attributes": {
+    "lable": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.label"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
     "image": {
       "type": "media",
       "multiple": true,
@@ -24,17 +35,6 @@
         "right",
         "left"
       ]
-    },
-    "lable": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.label"
-    },
-    "heading": {
-      "type": "string"
-    },
-    "description": {
-      "type": "richtext"
     },
     "actionButton": {
       "type": "component",
