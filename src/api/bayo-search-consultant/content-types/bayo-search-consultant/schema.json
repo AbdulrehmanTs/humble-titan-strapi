@@ -1,0 +1,90 @@
+{
+  "kind": "singleType",
+  "collectionName": "bayo_search_consultants",
+  "info": {
+    "singularName": "bayo-search-consultant",
+    "pluralName": "bayo-search-consultants",
+    "displayName": "bayo-search-consultant",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.hero"
+    },
+    "myIntro_section": {
+      "displayName": "myIntro_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.my-intro-section"
+    },
+    "what_I_offer_section": {
+      "displayName": "what_I_offer_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.what-i-offer-section"
+    },
+    "what_you_get": {
+      "displayName": "what_you_get",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.what-you-get"
+    },
+    "who_I_am": {
+      "displayName": "who_I_am",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.who-i-am"
+    },
+    "Iam_trustedBy_section": {
+      "displayName": "Iam_trusted_by_list",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.iam-trusted-by-list"
+    },
+    "Im_Impressed_by": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-with-image"
+    },
+    "questions_to_ask": {
+      "displayName": "questions_to_ask",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.questions-to-ask"
+    },
+    "organizations_I_work_with": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.features"
+    },
+    "discover_my_story_text": {
+      "type": "string"
+    },
+    "iconClassName": {
+      "type": "string"
+    },
+    "chapters": {
+      "displayName": "chapterIntro",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.chapter-intro"
+    },
+    "chapterConclusion": {
+      "displayName": "chapterConclusion",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.chapter-conclusion"
+    }
+  }
+}

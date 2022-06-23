@@ -1,0 +1,59 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_missions",
+  "info": {
+    "singularName": "our-mission",
+    "pluralName": "our-missions",
+    "displayName": "our-mission",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "donate": {
+      "displayName": "detailed_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.detailed-section"
+    },
+    "discover_what_we_teach": {
+      "displayName": "dicover",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.dicover"
+    },
+    "discover_how": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.dicover"
+    },
+    "discover_why_and_where": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.dicover"
+    },
+    "discover_those_we_plan_to_impact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.dicover"
+    },
+    "discover_more": {
+      "displayName": "discover_more",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.discover-more"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.hero"
+    }
+  }
+}

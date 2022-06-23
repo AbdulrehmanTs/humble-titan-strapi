@@ -1,0 +1,64 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.hero"
+    },
+    "label": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "details": {
+      "type": "richtext"
+    },
+    "officeInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.tell-us-section"
+    },
+    "heading_for_faqs": {
+      "type": "string"
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.faqs"
+    },
+    "client_feedback": {
+      "displayName": "client_feedback",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.client-feedback"
+    },
+    "trustedByCompanies": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.trusted-by-companies"
+    },
+    "DanaJohnsonFeedback": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.client-feedback"
+    }
+  }
+}

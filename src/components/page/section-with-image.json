@@ -7,14 +7,9 @@
   },
   "options": {},
   "attributes": {
-    "label": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.label"
-    },
     "image": {
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "required": false,
       "allowedTypes": [
         "images",
@@ -23,18 +18,23 @@
         "audios"
       ]
     },
-    "heading": {
-      "type": "string"
-    },
-    "description": {
-      "type": "richtext"
-    },
-    "image_location": {
+    "image_direction": {
       "type": "enumeration",
       "enum": [
         "right",
         "left"
       ]
+    },
+    "lable": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.label"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     },
     "actionButton": {
       "type": "component",

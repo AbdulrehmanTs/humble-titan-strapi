@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "faqs_pages",
+  "info": {
+    "singularName": "faqs-page",
+    "pluralName": "faqs-pages",
+    "displayName": "faqs-page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.hero"
+    },
+    "faqs": {
+      "displayName": "faqs",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.faqs"
+    },
+    "requestAQuote_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.reaquest-a-quote-section"
+    }
+  }
+}

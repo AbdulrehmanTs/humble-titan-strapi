@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_green_button_action_buttons",
+  "collectionName": "components_action_buttons",
   "info": {
-    "displayName": "green_button",
+    "displayName": "action_button",
     "icon": "arrow-alt-circle-up",
     "description": ""
   },
@@ -13,7 +13,7 @@
     "href": {
       "type": "string"
     },
-    "btn_style": {
+    "style": {
       "type": "enumeration",
       "enum": [
         "filled",

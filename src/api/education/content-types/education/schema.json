@@ -1,0 +1,62 @@
+{
+  "kind": "singleType",
+  "collectionName": "educations",
+  "info": {
+    "singularName": "education",
+    "pluralName": "educations",
+    "displayName": "education",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.hero"
+    },
+    "educationalDictionaries": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.features"
+    },
+    "discover_full_seo_course": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.dicover"
+    },
+    "discover_ht_magazine": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.dicover"
+    },
+    "services_gallery": {
+      "displayName": "services_gallery",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.services-gallery"
+    },
+    "ht_mind_mag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.features"
+    },
+    "explore": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.explore-section"
+    },
+    "ht_digital_services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.ht-digital-services"
+    }
+  }
+}

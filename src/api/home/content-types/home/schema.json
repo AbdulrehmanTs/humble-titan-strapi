@@ -1,0 +1,62 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.hero"
+    },
+    "weBoostSection": {
+      "displayName": "weBoost",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.we-boost"
+    },
+    "explore": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.explore-section"
+    },
+    "ourServices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.our-services"
+    },
+    "services_gallery": {
+      "displayName": "services_gallery",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.services-gallery"
+    },
+    "tellUs_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.tell-us-section"
+    },
+    "no_matter_who_you_are": {
+      "displayName": "no_matter_who_you_are",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.no-matter-who-you-are"
+    },
+    "last_words": {
+      "type": "richtext"
+    }
+  }
+}

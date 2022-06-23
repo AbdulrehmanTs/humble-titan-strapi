@@ -1,0 +1,62 @@
+{
+  "kind": "singleType",
+  "collectionName": "the_teams",
+  "info": {
+    "singularName": "the-team",
+    "pluralName": "the-teams",
+    "displayName": "the-team",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.hero"
+    },
+    "bayo_mba": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-with-image"
+    },
+    "rilwan": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-with-image"
+    },
+    "hafiz": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-with-image"
+    },
+    "trustedBy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.trusted-by-companies"
+    },
+    "exceptional_resources": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.our-value-section"
+    },
+    "great_benifits": {
+      "displayName": "greatBenifits",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.great-benifits"
+    },
+    "tellUs_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.tell-us-section"
+    }
+  }
+}

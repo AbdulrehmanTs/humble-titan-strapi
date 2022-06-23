@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "humble_minds",
+  "info": {
+    "singularName": "humble-mind",
+    "pluralName": "humble-minds",
+    "displayName": "humble_mind"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.hero"
+    },
+    "ht_digital_services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.ht-digital-services"
+    }
+  }
+}

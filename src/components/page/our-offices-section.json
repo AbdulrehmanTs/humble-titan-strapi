@@ -14,6 +14,11 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.single-office-card"
+    },
+    "action_button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.action-button"
     }
   }
 }

@@ -1,0 +1,68 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "about",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.hero"
+    },
+    "overview": {
+      "type": "richtext"
+    },
+    "section_with_image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-with-image"
+    },
+    "trustedByCompanies": {
+      "displayName": "trustedByCompanies",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.trusted-by-companies"
+    },
+    "ourValue_section": {
+      "displayName": "ourValue_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.our-value-section"
+    },
+    "meetTheTeam_section": {
+      "displayName": "team_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.team-section"
+    },
+    "section_with_image_left": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-with-image"
+    },
+    "ourOffices": {
+      "displayName": "ourOffices_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.our-offices-section"
+    },
+    "ht_digital_services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.ht-digital-services"
+    }
+  }
+}

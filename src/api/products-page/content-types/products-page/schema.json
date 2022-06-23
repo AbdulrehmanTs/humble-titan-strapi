@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "products_pages",
+  "info": {
+    "singularName": "products-page",
+    "pluralName": "products-pages",
+    "displayName": "products-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.hero"
+    },
+    "products_list": {
+      "displayName": "Product_list",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.product-list"
+    },
+    "other_products": {
+      "displayName": "Product_list",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.product-list"
+    },
+    "requestAQuote_section": {
+      "displayName": "reaquestAQuote_section",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.reaquest-a-quote-section"
+    },
+    "explore": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.explore-section"
+    }
+  }
+}
