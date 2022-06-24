@@ -13,6 +13,9 @@ module.exports = createCoreController('api::about.about', ({ strapi }) => ({
         const entity = await strapi.entityService.findMany('api::about.about', {
             ...query,
             populate: {
+                header: {
+                    populate: '*'
+                },
                 hero: {
                     populate: '*'
                 },
