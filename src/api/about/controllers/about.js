@@ -29,7 +29,11 @@ module.exports = createCoreController('api::about.about', ({ strapi }) => ({
                     populate: '*'
                 },
                 meetTheTeam_section: {
-                    populate: '*'
+                    populate: {
+                        person: {
+                            populate: '*'
+                        }
+                    }
                 },
                 section_with_image_left: {
                     populate: '*'
