@@ -30,14 +30,22 @@
       "component": "shared.link"
     },
     "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "image_direction": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
     }
   }
 }

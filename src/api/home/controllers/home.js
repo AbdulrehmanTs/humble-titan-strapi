@@ -13,10 +13,10 @@ module.exports = createCoreController('api::home.home', ({ strapi }) => ({
         const entity = await strapi.entityService.findMany('api::home.home', {
             ...query,
             populate: {
-                header: {
+                Header: {
                     populate: '*'
                 },
-                hero: {
+                Hero: {
                     populate: '*'
                 },
                 weBoostSection: {

@@ -57,6 +57,26 @@
     },
     "last_words": {
       "type": "richtext"
+    },
+    "theHumbleTrader": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-with-image"
+    },
+    "TRAMSearchEngine": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.we-boost"
+    },
+    "WeAreAFullService": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-with-image"
+    },
+    "beHumbleVoter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-with-image"
     }
   }
 }
