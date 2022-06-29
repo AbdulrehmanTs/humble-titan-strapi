@@ -24,7 +24,7 @@
     "qouted_text": {
       "type": "text"
     },
-    "personName": {
+    "person_name": {
       "type": "string"
     }
   }
