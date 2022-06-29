@@ -24,7 +24,10 @@
     "qouted_text": {
       "type": "text"
     },
-    "personName_and_info": {
+    "personName": {
+      "type": "text"
+    },
+    "personRoll": {
       "type": "string"
     }
   }
