@@ -39,13 +39,6 @@
         "videos",
         "audios"
       ]
-    },
-    "image_direction": {
-      "type": "enumeration",
-      "enum": [
-        "left",
-        "right"
-      ]
     }
   }
 }

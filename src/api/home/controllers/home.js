@@ -50,6 +50,18 @@ module.exports = createCoreController('api::home.home', ({ strapi }) => ({
                 tellUs_section: {
                     populate: '*'
                 },
+                theHumbleTrader: {
+                    populate: '*'
+                },
+                TRAMSearchEngine: {
+                    populate: '*'
+                },
+                WeAreAFullService: {
+                    populate: '*'
+                },
+                beHumbleVoter: {
+                    populate: '*'
+                },
                 no_matter_who_you_are: {
                     populate: {
                         vertical_cards: {
