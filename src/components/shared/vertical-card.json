@@ -26,9 +26,6 @@
     },
     "personName_and_info": {
       "type": "text"
-    },
-    "personRoll": {
-      "type": "string"
     }
   }
 }
