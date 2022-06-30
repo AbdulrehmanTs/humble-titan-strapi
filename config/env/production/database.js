@@ -14,6 +14,7 @@ module.exports = ({ env }) => ({
         rejectUnauthorized: false
       },
     },
+    acquireConnectionTimeout: 100000,
     pool: {
       min: 0,
       max: 10,
