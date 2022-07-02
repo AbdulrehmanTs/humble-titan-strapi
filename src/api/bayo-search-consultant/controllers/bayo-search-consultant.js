@@ -60,6 +60,13 @@ module.exports = createCoreController('api::bayo-search-consultant.bayo-search-c
                                     populate: "*"
                                 }
                             }
+                        },
+                        digital_marketing_qs: {
+                            populate: {
+                                questions: {
+                                    populate: "*"
+                                }
+                            }
                         }
                     }
                 },
