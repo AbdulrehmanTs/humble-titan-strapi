@@ -13,7 +13,13 @@
       "displayName": "traditional_marketing_qs",
       "type": "component",
       "repeatable": false,
-      "component": "shared.traditional-marketing-qs"
+      "component": "shared.questions_componenet"
+    },
+    "digital_marketing_qs": {
+      "displayName": "digital_marketing_qs",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.questions_componenet"
     },
     "actionButton": {
       "type": "component",
