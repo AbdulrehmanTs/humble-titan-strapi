@@ -49,7 +49,7 @@ module.exports = createCoreController('api::bayo-search-consultant.bayo-search-c
                 Iam_trustedBy_section: {
                     populate: '*'
                 },
-                Im_Impressed_by: {
+                feedback: {
                     populate: '*'
                 },
                 questions_to_ask: {
