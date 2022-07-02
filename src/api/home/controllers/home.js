@@ -21,6 +21,9 @@ module.exports = createCoreController('api::home.home', ({ strapi }) => ({
                 },
                 weBoostSection: {
                     populate: {
+                        actionButton: true,
+                        images: true,
+                        link: true,
                         title_with_picture: {
                             populate: '*'
                         }
@@ -35,6 +38,7 @@ module.exports = createCoreController('api::home.home', ({ strapi }) => ({
                 },
                 ourServices: {
                     populate: {
+                        BackgroundImage: true,
                         marketSmarter: {
                             populate: '*'
                         }
@@ -54,7 +58,14 @@ module.exports = createCoreController('api::home.home', ({ strapi }) => ({
                     populate: '*'
                 },
                 TRAMSearchEngine: {
-                    populate: '*'
+                    populate: {
+                        actionButton: true,
+                        images: true,
+                        link: true,
+                        title_with_picture: {
+                            populate: '*'
+                        }
+                    }
                 },
                 WeAreAFullService: {
                     populate: '*'
