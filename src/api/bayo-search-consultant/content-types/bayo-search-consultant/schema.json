@@ -52,11 +52,6 @@
       "repeatable": false,
       "component": "shared.iam-trusted-by-list"
     },
-    "Im_Impressed_by": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.section-with-image"
-    },
     "questions_to_ask": {
       "displayName": "questions_to_ask",
       "type": "component",
@@ -79,6 +74,11 @@
       "type": "component",
       "repeatable": true,
       "component": "page.chapter-intro"
+    },
+    "feedback": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.client-feedback"
     }
   }
 }
