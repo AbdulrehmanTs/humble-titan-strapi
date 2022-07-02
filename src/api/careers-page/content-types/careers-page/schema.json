@@ -43,7 +43,7 @@
       "repeatable": false,
       "component": "page.career-benefits"
     },
-    "heading": {
+    "opennings": {
       "displayName": "current_oppenings",
       "type": "component",
       "repeatable": false,
