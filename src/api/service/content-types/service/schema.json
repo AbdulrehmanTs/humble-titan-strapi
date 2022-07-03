@@ -52,7 +52,7 @@
     "our_commitment": {
       "displayName": "our-commitment",
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "page.our-commitment"
     },
     "contact2": {
