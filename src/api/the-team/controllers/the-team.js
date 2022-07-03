@@ -20,13 +20,46 @@ module.exports = createCoreController('api::the-team.the-team', ({ strapi }) => 
                     populate: '*'
                 },
                 bayo_mba: {
-                    populate: '*'
+                    populate: {
+                        actionButton: {
+                            populate: '*'
+                        },
+                        abilities: {
+                            populate: '*'
+                        },
+                        my_quote: {
+                            populate: '*'
+                        },
+                        image: true
+                    }
                 },
                 rilwan: {
-                    populate: '*'
+                    populate: {
+                        actionButton: {
+                            populate: '*'
+                        },
+                        abilities: {
+                            populate: '*'
+                        },
+                        my_quote: {
+                            populate: '*'
+                        },
+                        image: true
+                    }
                 },
                 hafiz: {
-                    populate: '*'
+                    populate: {
+                        actionButton: {
+                            populate: '*'
+                        },
+                        abilities: {
+                            populate: '*'
+                        },
+                        my_quote: {
+                            populate: '*'
+                        },
+                        image: true
+                    }
                 },
                 trustedBy: {
                     populate: "*"

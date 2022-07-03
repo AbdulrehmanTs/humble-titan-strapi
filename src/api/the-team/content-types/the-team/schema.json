@@ -25,17 +25,17 @@
     "bayo_mba": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-with-image"
+      "component": "page.my-intro-section"
     },
     "rilwan": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-with-image"
+      "component": "page.my-intro-section"
     },
     "hafiz": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-with-image"
+      "component": "page.my-intro-section"
     },
     "trustedBy": {
       "type": "component",
