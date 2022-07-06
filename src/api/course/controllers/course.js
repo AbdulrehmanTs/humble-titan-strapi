@@ -44,6 +44,9 @@ module.exports = createCoreController('api::course.course', ({ strapi }) => ({
                     populate: {
                         otherService: {
                             populate: '*'
+                        },
+                        actionButton: {
+                            populate: '*'
                         }
                     }
                 },
