@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_shared_dictionary_items",
+  "info": {
+    "displayName": "dictionary-items",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "alphabet_Id": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "accordions": {
+      "displayName": "accordions",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.accordions"
+    },
+    "feature": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.feature-card"
+    }
+  }
+}
