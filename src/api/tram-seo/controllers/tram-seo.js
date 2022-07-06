@@ -16,7 +16,7 @@ module.exports = createCoreController('api::tram-seo.tram-seo', ({ strapi }) => 
                 header: {
                     populate: '*'
                 },
-                hero: {
+                Hero: {
                     populate: '*'
                 },
                 seo_courses_cards: {
