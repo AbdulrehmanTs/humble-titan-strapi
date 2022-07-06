@@ -69,6 +69,10 @@
       "type": "component",
       "repeatable": false,
       "component": "page.other-services"
+    },
+    "slug": {
+      "type": "uid",
+      "required": true
     }
   }
 }

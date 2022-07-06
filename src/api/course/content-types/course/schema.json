@@ -56,6 +56,10 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.ht-digital-services"
+    },
+    "slug": {
+      "type": "uid",
+      "required": true
     }
   }
 }
