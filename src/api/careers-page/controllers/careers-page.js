@@ -33,6 +33,9 @@ module.exports = createCoreController('api::careers-page.careers-page', ({ strap
                 },
                 danaJohnson: {
                     populate: '*'
+                },
+                opennings: {
+                    populate: '*'
                 }
             },
         });
